@@ -1,0 +1,587 @@
+/*
+Theme Name: houyuan
+Theme URL:www.aihouyuan.com
+Version:1.0
+Author:Jackie Jing/houyuan
+Description: a WCM theme like 36kr or huxiu.
+*/
+body{
+	font-family:PingFang SC,Lantinghei SC,Helvetica Neue,Helvetica,Arial,
+	Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,STHeitiSC-Light,simsun,
+	\\5B8B\4F53,WenQuanYi Zen Hei,WenQuanYi Micro Hei,'sans-serif';
+}
+body{
+	background-color: #f1f1f1;
+	color: #747f8c;
+}
+.logo{
+	height: 50px;
+	margin-top: -15px;
+}
+.info-content{
+	padding: 15px 0;
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+	margin-bottom: 20px;
+	position: relative;
+}
+.info-content img{
+
+}
+.carousel-main{
+	margin-bottom: 20px;
+} 
+.info-content h2{
+	font-size: 18px;
+	font-weight: bold;
+	max-height: 54px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	line-height: 28px;
+	margin: -3px 0 10px 0;
+}
+.slider-right{
+	padding-bottom: 40px;
+}
+blockquote h2{
+	font-size: 20px;
+	color: #333;
+}
+.slider-info-img{
+	padding: 0;
+	margin: 12px 0;
+}
+.slider-info h3{
+	font-size: 14px;
+	margin-top: 12px;
+	max-height: 30px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.slider-ad img{
+	padding: 15px 0 15px 0;
+}
+.slider-time-tags{
+	margin-top: 44px;
+}
+footer{
+	background-color: #2d3237;
+	padding-top: 20px;
+	margin-top: 100px;
+	
+}
+.time-tags{
+	position: absolute;
+	top: 159px;
+}
+.footer-left img{
+	width: 80px;
+	float: left;
+}
+.footer-left-head{
+	margin:0 0 50px -10px;
+}
+.footer-left-head h4{
+	color: #ccc;
+	font-size: 16px;
+	padding: 10px 0 0 10px;
+}
+.footer-left-time{
+	margin-top: 10px;
+	color: #ccc;
+}
+.footer-mid h4{
+	padding-top: 10px;
+	margin-bottom: 46px;
+}
+.footer-mid-friend img{
+	width: 50px;
+	float: left;
+	margin-right: 10px;
+}
+.footer-right img{
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+}
+.footer-bottem{
+	background-color: #23282d;
+	padding: 5px 0 2px 0;
+	color: #666;
+}
+.page-template-page-login{
+	background: url(images/bg.jpg);
+	background-size: 100%;
+}
+
+/*登录/注册*/
+.logoin{
+	background-color: #fff;
+}
+#myTab{
+	padding: 30px 30px;
+	background-color: #fff;
+	margin-top: 30px;
+	margin-bottom: 200px;
+}
+.myTab-logoin{
+	font-size: 18px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	color: #000;
+}
+#myTab ul{
+	margin-bottom: 50px;
+}
+.input-lg{
+	font-size: 14px;
+}
+#myTab input{
+	margin-bottom: 20px;
+}
+#myTab button{
+	margin-bottom: 50px;
+}
+.ads img{
+	margin-bottom: 20px;
+}
+/*404page*/
+.text-404{
+	font-size: 50px;
+	margin: 50px 0 60px 0;
+}
+/*文章article页面*/
+.article-content{
+	margin-top: 20px;
+}
+.article-content-title{
+	font-family: PingFang SC,Lantinghei SC,Helvetica Neue,Helvetica,Arial,Microsoft YaHei,\\5FAE软雅黑,STHeitiSC-Light,simsun,\\5B8B体,WenQuanYi Zen Hei,WenQuanYi Micro Hei,"sans-serif";
+	margin: 0 15px;
+	text-align: justify;
+	font-size: 16px;
+	line-height: 28px;
+	color: rgba(0,0,0,.8);
+}
+.article-content-title h1{
+	font-size: 24px;
+	color: #3d464d;
+	margin-bottom: 28px;
+	font-family: PingFang SC,Lantinghei SC,Helvetica Neue,Helvetica,Arial,Microsoft YaHei,\5FAE软雅黑,STHeitiSC-Light,simsun,\5B8B体,WenQuanYi Zen Hei,WenQuanYi Micro Hei,'sans-serif';
+	font-weight: 600;
+}
+.article-content-title section{
+	line-height: 28px;
+	font-size: 16px;
+	color: #3d464d;
+	padding-bottom: 30px;
+}
+.article-content-btn{
+	margin: 30px 0 30px 0;
+	display: inline-block;
+	height: 26px;
+	line-height: 24px;
+	padding: 5px;
+}
+.article-content-btn a{
+	background-color: #dc725f;
+	border: 1px solid #dc725f;
+	color: #fff;
+	padding: 3px 15px;
+	margin-right: 5px;
+}
+.article-content-btn a:hover{
+	background-color: #cd5b47;
+	border: 1px solid #cd5b47;
+	color: #fff;
+	text-decoration: none;
+}
+.related-list-post{
+	margin-bottom: 30px;
+}
+.single-content img{
+	max-width: 100%;
+	height: auto;
+}
+.thumbnail-pic{
+	width: 100%;
+	height: 0;
+	padding-bottom: 62.5%;
+	overflow: hidden;
+}
+.about-us img{
+	width: 100%;
+	height: auto;
+}
+.about-us-item a{
+	color: #555;
+}
+.thumbnail-pic img{
+	width: 100%;
+	height: auto;
+}
+.auther a{
+	color: #dc725f;
+}
+/*评论框*/
+.submit{
+	padding: 15px 15px 0 15px;
+	
+}
+.submit button{
+	margin: 10px 0 25px 0;
+}
+
+/*登录测试*/
+
+/*关于我们页面*/
+.about-us{
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+	padding: 15px;
+}
+.about-us li{
+	list-style-type: none;
+	font-size: 16px;
+	line-height: 18px;
+}
+.cut-line{
+	border-bottom:1px solid #f2f2f2;
+}
+/*comments*/
+.clearfix{
+	width: 100%;
+}
+.clearfix label{
+	background-color: #f1f1f1;
+	color: #555;
+	padding: 12px 10px;
+	border: 1px solid #ddd;
+	font-weight: normal;
+	font-size: 14px;
+}
+.clearfix input{
+	font-size: 14px;
+	border:1px solid #ddd;
+	height: 45.6px;
+	width: 60%;
+	margin-left: -5px;
+}
+#content-box{
+	width: 100%;
+	height: 140px;
+	border: 1px solid #ddd;
+	line-height: 1.5;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+#content-box:focus{
+	border: 1px solid #eaeaea;
+}
+/*小工具*/
+#wp-calendar{
+	width: 100%;
+}
+#calendar_wrap{
+	margin: 20px;
+}
+.little-tools ul{
+	list-style-type: none;
+	margin-left: -15px;
+
+}
+.little-tools ul li,.textwidget{
+	line-height: 2.4;
+	font-size: 16px;
+}
+.textwidget{
+	margin: 0 20px;
+}
+.little-tools a{
+	color: #333;
+}
+.comment-content ul{
+	list-style-type: none;
+	margin-top: 20px;
+}
+.comment-content h2{
+	font-size: 20px;
+	margin: 20px 20px 0 20px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	border-bottom: 1px solid #eaeaea;
+	color: #000;
+	font-weight: normal;
+}
+.little-tools{
+	box-shadow: 2px 2px 3px #ccc;
+	background-color: #fff;
+	margin-top:-20px; 
+	margin-bottom: 40px;
+	margin-right: -15px;
+	margin-left: -15px;
+	padding-bottom:20px;
+}
+.little-tools h2{
+	font-size: 20px;
+	margin: 20px 20px 0 20px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	border-bottom: 1px solid #eaeaea;
+	color: #000;
+	font-weight: normal;
+}
+.tagcloud{
+	margin: 15px 20px 0 20px; 
+	font-size: 16px;
+	zoom: 1;
+}
+.tagcloud a{
+	color: #fff;
+	font-size: 14px !important;
+	background-color: #dc725f;
+	border-color: #dc725f;
+	padding: 5px;
+	line-height: 34px;
+}
+.tagcloud a:hover{
+	background-color: #cd5b47;
+	text-decoration: none;
+}
+#s{
+	margin: 20px;
+	width: 66%;
+	border: 0;
+	padding: 5px 40px 5px 5px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #dc725f;
+	border-radius: 10px;
+	color: #777;
+}
+#searchform label{
+	display: none;
+}
+.searchsubmit{
+	color: #fff;
+	background-color: #dc725f;
+	border-color: #dc725f;
+	border:none;
+	padding: 6px 12px;
+	font-size: 14px;
+	border-radius: 4px;
+}
+.searchsubmit:hover{
+	color: #fff;
+	background-color: #cd5b47;
+	border-color: #cd5b47;
+	border:none;
+	padding: 6px 12px;
+	font-size: 14px;
+	border-radius: 4px;
+}
+#searchsubmit{
+	color: #fff;
+	background-color: #dc725f;
+	border-color: #dc725f;
+	border:none;
+	padding: 6px 12px;
+	font-size: 14px;
+	border-radius: 4px;
+}
+#searchsubmit:hover{
+	background-color: #cd5b47;
+}
+.textwidget img{
+	width: 100%;
+	height: auto;
+
+}
+/*小工具时间线*/
+.setup-time li{
+	list-style-type:circle;
+	line-height:15px;
+}
+.setup-time h3{
+	font-size:16px;
+	border-left:2px solid #dc725f;
+	padding: 10px 0 10px 12px;
+	margin-left: -12px;
+	margin-top: -8px;
+}
+/*相关文章*/
+.related-content{
+	list-style-type: none;
+	width: 100%;
+	height: auto;
+	background-color: blue;
+
+}
+.related_box{
+	float: left;
+	width: 33%;
+	height: auto;
+	display: inline-block;
+	overflow: hidden;
+}
+.related_box_item{
+	width: 100%;
+	height: auto;
+	max-height: 147px;
+	overflow: hidden;
+}
+.related_box img{
+	border: 5px solid #fff;
+	border-radius: 4px;
+	width: 100%;
+	height: auto;
+
+}
+.related-title h2{
+	font-size: 20px;
+	border-bottom: 1px solid #eaeaea;
+	font-weight: normal;
+	color: #000;
+	margin: 0 20px 0 20px;
+	padding-bottom: 10px;
+}
+.r_title{
+	font-size: 16px;	
+	margin:8px 8px 16px 8px;
+}
+.r_title a{
+	color: #000;
+}
+.related-time{
+	margin:8px 8px 16px 8px;
+}
+/*评论头像*/
+.avatar{
+	border: 1px solid #eaeaea;
+	float: left;
+}
+.clearfix cite{
+	font-size: 18px;
+	margin: 2px 10px;
+}
+.comment-reply-link{
+	float: right;
+	font-size: 14px;
+	background-color: #dc725f;
+	color: #fff;
+	padding:5px;
+	margin-right: 20px;
+}
+.url{
+	color: #747f8c;
+}
+.comment-meta{
+	margin:5px 74px;
+}
+.comment_text{
+	margin-right: 15px;
+	color: #000;
+}
+.comment_text{
+	border-bottom: 1px solid #eaeaea;
+}
+.comment{
+	margin-top: 20px;
+}
+.comment-submit{
+	float: right;
+	margin-right:20px;
+}
+.decmt-box a{
+	color: 
+}
+
+
+
+
+
+
+/* 超小屏幕（手机，小于 768px） */
+/* 没有任何媒体查询相关的代码，因为这在 Bootstrap 中是默认的（还记得 Bootstrap 是移动设备优先的吗？） */
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (max-width: 768px) {
+	.info-content h2{
+		color: #333;
+		font-size: 16px;
+		font-weight: bold;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow:ellipsis;
+	}
+	footer{
+		background-color: #2d3237;
+		margin:0;
+		padding:0px;
+	}
+	.time-tags{
+	display: none;
+}
+
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 768px) and (max-width: 992px) {
+	.info-content h2{
+		color: #333;
+		font-size: 16px;
+		font-weight: bold;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow:ellipsis;
+		-o-text-overflow:ellipsis;
+
+	}
+	footer{
+		background-color: #2d3237;
+		margin-top: 50px;
+	}
+	.time-tags{
+	position: absolute;
+	top: 148px;
+}
+	.related-title h2{
+	font-size: 20px;
+	border-bottom: 1px solid #eaeaea;
+	font-weight: normal;
+	color: #000;
+	margin-left: 20px;
+}
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 992px) and (max-width: 1200px) { 
+	.info-content h2{
+		font-size: 18px;
+		font-weight: bold;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow:ellipsis;
+	}
+	footer{
+		background-color: #2d3237;
+		margin-top: 50px;
+		
+	}
+	.time-tags{
+	position: absolute;
+	top: 122px;
+}
+	.slider-time-tags{
+	margin-top: 10px;
+}
+	.related-title h2{
+	font-size: 20px;
+	border-bottom: 1px solid #eaeaea;
+	font-weight: normal;
+	color: #000;
+	margin-left: 20px;
+}
+		
+}
